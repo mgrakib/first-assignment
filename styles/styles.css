@@ -52,3 +52,170 @@ body {
 .bannar-btn {
     color: #005FAC;
 }
+
+
+/* ---------------------my-failures-section style----------- */
+
+.my-failures-section {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.failures-section-image {
+    flex-basis: 46%;
+}
+
+.failures-section-image img {
+    width: 100%;
+    background-blend-mode:saturation;
+}
+
+
+
+.failures-section-details {
+    flex-basis: 46%;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+    font-size: 14px;
+    margin: 25px 0;
+    line-height: 18px;
+}
+
+.failures-items {
+    list-style-position: inside;
+    list-style: none inside url(../asset/icons/check.svg);
+}
+
+.failures-item {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+/* my plan style */
+
+.my-plan-section {
+    padding: 0px 180px;
+    text-align: center;
+}
+
+.plan-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    justify-content: space-between;
+}
+
+.plan-item-card {
+    width: 24%;
+}
+
+.plan-item-card .plan-title {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 800;
+}
+
+.plan-description {
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+
+/* -----------feature style---------- */
+.feature{
+    padding: 60px;
+    width: 70%;
+    margin: 100px auto;
+    background-image: linear-gradient( to right,  #015EAB, #015fab00), url(../asset/watch.png);
+    background-position: center;
+    color: white;
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+
+.section-title {
+    font-size: 38px;
+}
+
+.feature-btn {
+    margin-top: 10px;
+    color: #005FAC;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* footer section style  */
+.footer {
+    width: 100%;
+    height: 70vh;
+    background-color: #151414;
+    padding: 100px 180px;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy-right {
+    text-align: center;
+    border-top: 1px solid white;
+    margin: 20px 0;
+    padding: 10px 0;
+    font-size: 12px;
+}
+.footer-title {
+    font-size: 30px;
+}
+
+.footer-details, .footer-list{
+    width: 40%;
+    font-size: 13px;
+    margin: 15px 0;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+.footer-lists {
+    list-style: none;
+}
+
+
+.social-links-container img {
+    width: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.subscrib-btn {
+    background-color: #005FAC;
+    color: white;
+    font-size: 16px;
+}
+
+.subscrib-input {
+    padding: 15px 15px;
+    width: 90%;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 7px;
+    margin: 20px 0;
+}
+
+.subscrib-title {
+    font-size: 22px;
+}
